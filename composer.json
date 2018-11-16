@@ -1,0 +1,30 @@
+{
+  "name": "webit/endomondo2strava",
+  "description": "Moves Endomondo workouts to Strava",
+  "keywords": [
+    "Strava",
+    "Endomondo"
+  ],
+  "require": {
+    "php": ">=7.0",
+    "fabulator/endomondo-api": "^1.1.1",
+    "basvandorst/stravaphp": "^1.1.0",
+    "monolog/monolog": "^1.23.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Bojdo",
+      "email": "daniel@bojdo.eu"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "E2S\\": "src/"
+    }
+  }
+}

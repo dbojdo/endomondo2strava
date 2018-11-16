@@ -1,0 +1,9 @@
+version: '2'
+services:
+    php:
+        build : ./docker/php
+        volumes:
+            - .:/var/www/html
+            - ./docker/php/config:/usr/local/etc/php/conf.d
+            - ./var/composer:/root/.composer
+        working_dir: /var/www/html
