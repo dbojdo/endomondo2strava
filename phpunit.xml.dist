@@ -11,7 +11,7 @@
         <ini name="error_reporting" value="-1" />
         <env name="endomondo.username" value="changeme" />
         <env name="endomondo.password" value="changeme" />
-        <env name="strava.token" value="changeme" />
+        <env name="strava.token" value="41b443b23ad63c1e12bbbe4fb0ae485aaea7853f" />
     </php>
 
     <testsuites>

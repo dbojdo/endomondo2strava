@@ -40,9 +40,8 @@ class ActivitiesUploaderIntegrationTest extends TestCase
 
         $adapter = new \Pest('https://www.strava.com/api/v3');
         $service = new REST(getenv('strava.token'), $adapter);
-        $client = new Client($service);
 
-        return $client;
+        return new Client($service);
     }
 
     /**
